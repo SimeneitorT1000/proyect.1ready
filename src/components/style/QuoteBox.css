@@ -1,0 +1,45 @@
+
+
+.quotebox {
+   
+    max-width: 400px;
+    display: grid;
+    gap: 45px;
+    justify-items: center;
+}
+
+.quotebox__title {
+    font-size: 35px;
+    color: white; 
+    text-shadow: 
+        -3px -3px 0 #804000,  
+         3px -3px 0 #804000,
+        -3px  3px 0 #804000,
+         3px  3px 0 #804000; 
+    padding-bottom: 60px;
+    
+    
+}
+.quotebox__btn {
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+.quotebox__box {
+    margin-top: 60px;
+    padding-bottom: 30vh;
+    background-image: url("./public/images/Rectangle.png");
+    background-size: cover; /* O usa 'contain' o especifica un tamaño */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+
+    
+}
+
+.quotebox__author {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,65 @@
+.App {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    color: cadetblue;
+    background-size: cover;
+    font-family: 'Fredoka One', sans-serif;
+}
+
+.bg1 {
+    background-image: url(/images/fondo1.webp);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    
+}
+.bg2 {
+    background-image: url(/images/fondo2.webp);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.bg3 {
+    background-image: url(/images/fondo3.webp);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    
+}
+.bg4 {
+    background-image: url(/images/fondo4.webp);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+/* @media (min-width: 375px) {
+    .bg1 {
+        background-image: url(./images/fondo1.webp);
+        width: 375px;
+        height: 667px;
+        
+        
+        
+    }
+    .bg2 {
+        background-image: url(./images/fondo2.webp);
+        width: 375px;
+        height: 667px;
+    }
+    .bg3 {
+        background-image: url(./images/fondo3.webp);
+        width: 375px;
+        height: 667px;
+    }
+    .bg4 {
+        background-image: url(./images/fondo4.webp);
+        width: 375px;
+        height: 667px;
+    }
+    } */
