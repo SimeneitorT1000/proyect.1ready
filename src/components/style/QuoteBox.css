@@ -28,7 +28,7 @@
 .quotebox__box {
     margin-top: 60px;
     padding-bottom: 30vh;
-    background-image: url("./public/images/Rectangle.png");
+    background-image: url("/public/images/Rectangle.png");
     background-size: cover; /* O usa 'contain' o especifica un tamaño */
     background-repeat: no-repeat;
     background-position: center;
